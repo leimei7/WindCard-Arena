@@ -1,0 +1,235 @@
+        .sdheadbox0 {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            width: 100%;
+            height: 60px;
+            background: rgba(250, 235, 215, 1);
+            border-style: solid;
+            border-color: #000;
+            border-width: 1px;
+        }
+
+        .sdreturn {
+            text-align: center;
+            display: inline-block;
+            height: 100%;
+            width: 10%;
+            background-color: bisque;
+        }
+
+        .sdnumber {
+            text-align: center;
+            background-color: beige;
+            height: 59px;
+            width: 40%;
+            position: absolute;
+            right: 8px;
+            top: 0px;
+        }
+
+        .sdnumberson1 {
+            width: 30%;
+            display: inline-block;
+            padding-top: 20px;
+            font-size: large;
+            color: darkmagenta;
+        }
+
+        .sdnumberson2 {
+            margin-left: 2%;
+            width: 30%;
+            display: inline-block;
+            padding-top: 20px;
+            font-size: large;
+            color: darkmagenta;
+        }
+
+        .sdnumberson3 {
+            margin-left: 2%;
+            width: 30%;
+            display: inline-block;
+            padding-top: 20px;
+            font-size: large;
+            color: darkmagenta;
+        }
+
+        .sdheadbox {
+            margin-top: 80px;
+            background: rgba(0, 0, 0, 0);
+            width: 100%;
+            height: 650px;
+            position: absolute;
+            left: 0px;
+            right: 0px;
+            border-style: solid;
+            border-color: black;
+            border-width: 1px;
+        }
+
+        .sdheadson1 {
+            width: 30%;
+            background-color: bisque;
+            height: 100%;
+            position: absolute;
+            left: 0px;
+            border-top: none;
+            border-left: none;
+            border-right: 1px solid black;
+            border-bottom: none;
+        }
+
+        .sdheadson2 {
+            width: 68%;
+            background-color: beige;
+            height: 100%;
+            position: absolute;
+            right: 0px;
+            flex-wrap: nowrap;
+            overflow-x: auto;
+        }
+
+        .sdheadgrandson1 {
+            background-color: wheat;
+            height: 40%;
+            background-image: url('../../背景图/商城.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-top: none;
+            border-left: none;
+            border-bottom: 1px solid black;
+            border-right: none;
+        }
+
+        ul {
+            /* 不要那个点了 */
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .sdheadgrandson2 {
+            margin-top: 0;
+            display: block;
+            width: 100%;
+            height: 100px;
+            background-color: burlywood;
+            border-style: solid;
+            border-color: #000;
+            border-width: 1px;
+            border-right: none;
+        }
+
+        .sdheadgrandson3 {
+            margin-top: 25px;
+            display: block;
+            width: 100%;
+            height: 100px;
+            background-color: burlywood;
+            border-style: solid;
+            border-color: #000;
+            border-width: 1px;
+            border-right: none;
+        }
+
+        .sdheadgrandson4 {
+            margin-top: 25px;
+            display: block;
+            width: 100%;
+            height: 100px;
+            background-color: burlywood;
+            border-style: solid;
+            border-color: #000;
+            border-width: 1px;
+            border-right: none;
+        }
+
+        .sdtext1 {
+            padding-top: 18px;
+            font-size: larger;
+        }
+
+        .sdtext2 {
+            text-align: center;
+            padding: 30px;
+            font-size: x-large;
+            color: darkmagenta;
+            cursor: default;
+        }
+
+        .sdtext2:hover {
+            color: red;
+            cursor: pointer;
+        }
+
+        a {
+            text-decoration: none;
+            color: blueviolet;
+        }
+
+        a:hover {
+            color: red;
+        }
+
+        #goodsarea1 {
+            display: inline-block;
+            margin-top: 60px;
+            margin-left: 30px;
+            background-color: white;
+            width: 30%;
+            height: 80%;
+            border-style: solid;
+            border-color: #000;
+            border-width: 1px;
+            background-image: url(../../背景图/雪之回忆.png);
+            background-position: right top;
+        }
+
+        #goodsarea1:hover {
+            cursor: pointer;
+            border-style: solid;
+            border-color: red;
+            border-width: 2px;
+        }
+
+        #goodsarea2 {
+            display: inline-block;
+            margin-top: 60px;
+            margin-left: 20px;
+            background-color: white;
+            width: 30%;
+            height: 80%;
+            border-style: solid;
+            border-color: #000;
+            border-width: 1px;
+            background-image: url(../../背景图/雪之回忆.png);
+            background-position: center top;
+        }
+
+        #goodsarea2:hover {
+            cursor: pointer;
+            border-style: solid;
+            border-color: red;
+            border-width: 2px;
+        }
+
+        #goodsarea3 {
+            display: inline-block;
+            margin-top: 60px;
+            margin-left: 20px;
+            background-color: white;
+            width: 30%;
+            height: 80%;
+            border-style: solid;
+            border-color: #000;
+            border-width: 1px;
+            background-image: url(../../背景图/雪之回忆.png);
+            background-position: left top;
+        }
+
+        #goodsarea3:hover {
+            cursor: pointer;
+            border-style: solid;
+            border-color: red;
+            border-width: 2px;
+        }

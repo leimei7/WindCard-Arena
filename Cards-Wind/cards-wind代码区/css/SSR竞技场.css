@@ -1,0 +1,361 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: #333;
+    color: #fff;
+}
+
+.backsd {
+    height: 3em;
+    width: 10%;
+    border-radius: 5px;
+    transition: background-color 0.5s ease;
+}
+
+.backsd:hover {
+    background-color: #555;
+}
+
+.backzym {
+    height: 3em;
+    width: 10%;
+    border-radius: 5px;
+    transition: background-color 0.5s ease;
+}
+
+.backzym:hover {
+    background-color: #555;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.cardarea {
+    position: relative;
+    margin-top: 25px;
+    width: 100%;
+    height: 35em;
+    background-color: #555;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+.jnarea {
+    position: absolute;
+    display: inline-block;
+    left: 0;
+    width: 8%;
+    height: 35em;
+    background-color: #333;
+}
+
+.flarea {
+    position: absolute;
+    display: inline-block;
+    right: 0;
+    width: 8%;
+    height: 35em;
+    background-color: #333;
+}
+
+ul {
+    color: white;
+    list-style-type: none;
+    padding: 0;
+}
+
+.firstli {
+    display: block;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #555;
+    transition: background-color 0.5s ease;
+}
+
+.firstli:hover {
+    background-color: #333;
+    cursor: pointer;
+}
+
+.secondli1 {
+    margin: 5%;
+    margin-top: 5em;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    background-color: #555;
+    border-radius: 5px;
+    font-size: larger;
+}
+
+.secondli1:hover {
+    cursor: pointer;
+}
+
+.secondli2 {
+    margin: 5%;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    background-color: #555;
+    border-radius: 5px;
+    font-size: larger;
+}
+
+.secondli2:hover {
+    cursor: pointer;
+}
+
+.fl {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin: 5px;
+    border-radius: 10px;
+    transition: background-color 0.5s ease;
+}
+
+.fl:hover {
+    background-color: #555;
+    cursor: pointer;
+}
+
+.rend {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2em;
+    background-color: #333;
+    color: white;
+}
+
+.pointr {
+    position: absolute;
+    display: inline-block;
+    left: 20%;
+    width: 8%;
+    height: 35em;
+}
+
+.pointl {
+    position: absolute;
+    display: inline-block;
+    right: 20%;
+    width: 8%;
+    height: 35em;
+}
+
+.p1 {
+    position: absolute;
+    top: 18%;
+    background-image: url(../../背景图/箭头2.png);
+    background-size: cover;
+    display: block;
+    width: 100%;
+    height: 100px;
+}
+
+.p1:hover {
+    cursor: pointer;
+}
+
+.p2 {
+    position: absolute;
+    top: 43%;
+    background-image: url(../../背景图/箭头2.png);
+    background-size: cover;
+    display: block;
+    width: 100%;
+    height: 100px;
+}
+
+.p2:hover {
+    cursor: pointer;
+}
+
+.p3 {
+    position: absolute;
+    bottom: 18%;
+    background-image: url(../../背景图/箭头2.png);
+    background-size: cover;
+    display: block;
+    width: 100%;
+    height: 100px;
+}
+
+.p3:hover {
+    cursor: pointer;
+}
+
+.p4 {
+    position: absolute;
+    top: 18%;
+    background-image: url(../../背景图/箭头.png);
+    background-size: cover;
+    display: block;
+    width: 100%;
+    height: 100px;
+}
+
+.p4:hover {
+    cursor: pointer;
+}
+
+.p5 {
+    position: absolute;
+    top: 43%;
+    background-image: url(../../背景图/箭头.png);
+    background-size: cover;
+    display: block;
+    width: 100%;
+    height: 100px;
+}
+
+.p5:hover {
+    cursor: pointer;
+}
+
+.p6 {
+    position: absolute;
+    bottom: 18%;
+    background-image: url(../../背景图/箭头.png);
+    background-size: cover;
+    display: block;
+    width: 100%;
+    height: 100px;
+}
+
+.p6:hover {
+    cursor: pointer;
+}
+
+.card1 {
+    width: 180px;
+    height: 270px;
+    position: absolute;
+    top: 30px;
+    left: 37%;
+    transition: transform 0.6s ease-in-out;
+    /* 1秒平滑过渡 */
+    transform-origin: center center;
+    /* 设置旋转中心为图片中心 */
+    transform-style: preserve-3d;
+    /* 保持子元素在3D空间中 */
+}
+
+.card1:hover {
+    cursor: pointer;
+    /* top: 15px;
+    left: 34.8%;
+    width: 220px;
+    height: 315px; */
+}
+
+.card2 {
+    width: 180px;
+    height: 270px;
+    position: absolute;
+    bottom: 20px;
+    left: 37%;
+    transition: transform 0.6s ease-in-out;
+    /* 1秒平滑过渡 */
+    transform-origin: center center;
+    /* 设置旋转中心为图片中心 */
+    transform-style: preserve-3d;
+    /* 保持子元素在3D空间中 */
+}
+
+.card2:hover {
+    cursor: pointer;
+}
+
+.card3 {
+    width: 180px;
+    height: 270px;
+    position: absolute;
+    top: 30px;
+    right: 37%;
+    transition: transform 0.6s ease-in-out;
+    /* 1秒平滑过渡 */
+    transform-origin: center center;
+    /* 设置旋转中心为图片中心 */
+    transform-style: preserve-3d;
+    /* 保持子元素在3D空间中 */
+}
+
+.card3:hover {
+    cursor: pointer;
+}
+
+.card4 {
+    width: 180px;
+    height: 270px;
+    position: absolute;
+    bottom: 20px;
+    right: 37%;
+    transition: transform 0.6s ease-in-out;
+    /* 1秒平滑过渡 */
+    transform-origin: center center;
+    /* 设置旋转中心为图片中心 */
+    transform-style: preserve-3d;
+    /* 保持子元素在3D空间中 */
+}
+
+.card4:hover {
+    cursor: pointer;
+    /* width: 140px;
+    height: 210px;
+    bottom: 45px;
+    right: 38%; */
+}
+
+.popup {
+    display: block;
+    position: absolute;
+    width: 60%;
+    height: 60%;
+    left: 20%;
+    top: 20%;
+    background-color: #333;
+    z-index: 1;
+    border-style: solid;
+    border-color: white;
+    color: white;
+    font-size: xxx-large;
+    border-radius: 15px;
+}
+
+.initial {
+    /* 还原状态 */
+    transform: rotateY(180deg);
+}
+
+.rotated1 {
+    transform: rotateY(-180deg);
+}
+
+.rotated2 {
+    transform: rotateY(-360deg);
+}
+
+.rotated3 {
+    transform: rotateY(-540deg);
+}
+
+.rotated4 {
+    transform: rotateY(-720deg);
+}

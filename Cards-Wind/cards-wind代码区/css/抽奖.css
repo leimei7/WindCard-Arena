@@ -1,0 +1,140 @@
+ .cjbody1 {
+     margin-top: 5%;
+     width: 100%;
+     height: 320px;
+ }
+
+ .cjson1 {
+     display: inline-block;
+     margin-left: 20%;
+     width: 16%;
+     height: 100%;
+     background-image: url(../../cards-bag/bag0.png);
+     background-size: cover;
+ }
+
+ .cjson1:hover {
+     background-image: url(../../cards-bag/bag1.png);
+     background-size: cover;
+     cursor: pointer;
+ }
+
+ .cjson2 {
+     display: inline-block;
+     margin-left: 5%;
+     width: 16%;
+     height: 100%;
+     background-image: url(../../cards-bag/bag0.png);
+     background-size: cover;
+ }
+
+ .cjson2:hover {
+     background-image: url(../../cards-bag/bag1.png);
+     background-size: cover;
+     cursor: pointer;
+ }
+
+ .cjson3 {
+     display: inline-block;
+     margin-left: 5%;
+     width: 16%;
+     height: 100%;
+     background-image: url(../../cards-bag/bag0.png);
+     background-size: cover;
+ }
+
+ .cjson3:hover {
+     background-image: url(../../cards-bag/bag1.png);
+     background-size: cover;
+     cursor: pointer;
+ }
+
+ .cjbody2 {
+     margin-top: 10px;
+     width: 100%;
+     height: 320px;
+ }
+
+ .cjson4 {
+     display: inline-block;
+     margin-left: 20%;
+     width: 16%;
+     height: 100%;
+     background-image: url(../../cards-bag/bag0.png);
+     background-size: cover;
+ }
+
+ .cjson4:hover {
+     background-image: url(../../cards-bag/bag1.png);
+     background-size: cover;
+     cursor: pointer;
+ }
+
+ .cjson5 {
+     display: inline-block;
+     margin-left: 5%;
+     width: 16%;
+     height: 100%;
+     background-image: url(../../cards-bag/bag0.png);
+     background-size: cover;
+ }
+
+ .cjson5:hover {
+     background-image: url(../../cards-bag/bag1.png);
+     background-size: cover;
+     cursor: pointer;
+ }
+
+ .cjson6 {
+     display: inline-block;
+     margin-left: 5%;
+     width: 16%;
+     height: 100%;
+     background-image: url(../../cards-bag/bag0.png);
+     background-size: cover;
+ }
+
+ .cjson6:hover {
+     background-image: url(../../cards-bag/bag1.png);
+     background-size: cover;
+     cursor: pointer;
+ }
+
+ .cjpopup {
+     display: none;
+     position: absolute;
+     top: 0px;
+     z-index: 1;
+     width: 100%;
+     height: 100%;
+     background-color: black;
+ }
+
+ .popupson1 {
+     display: inline-block;
+     position: relative;
+     top: 100px;
+     left: 25%;
+     background-image: url(../../cards/r5.png);
+     background-size: cover;
+     background-repeat: no-repeat;
+     width: 310px;
+     height: 460px;
+ }
+
+ .popupson2 {
+     display: inline-block;
+     position: relative;
+     top: 100px;
+     margin-left: 30%;
+     background-image: url(../../cards/r.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     width: 310px;
+     height: 460px;
+     border-radius: 5%;
+ }
+
+ .popupson2:hover {
+     cursor: pointer;
+ }
